@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenScape Lawn Care</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .glow-button {
+      @apply bg-gradient-to-r from-green-400 to-blue-500 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition transform hover:scale-105 hover:shadow-2xl;
+    }
+    .fade-in { opacity: 0; animation: fadeIn 1.5s forwards; }
+    @keyframes fadeIn { to { opacity: 1; } }
+  </style>
+</head>
+<body class="bg-black text-gray-100 font-sans">
+
+<header class="flex justify-between items-center p-6 bg-gradient-to-r from-green-800 to-blue-900 shadow-lg">
+  <h1 class="text-3xl font-bold text-white tracking-wider">GreenScape</h1>
+  <nav class="space-x-6">
+    <a href="index.html" class="hover:text-green-400 transition">Home</a>
+    <a href="services.html" class="hover:text-green-400 transition">Services</a>
+    <a href="pricing.html" class="hover:text-green-400 transition">Pricing</a>
+    <a href="about.html" class="hover:text-green-400 transition">About</a>
+    <a href="contact.html" class="hover:text-green-400 transition">Contact</a>
+  </nav>
+</header>
+
+<section class="text-center py-28 bg-gradient-to-br from-green-900 via-black to-blue-900">
+  <h2 class="text-5xl font-bold mb-4 fade-in">The Future of Lawn Care</h2>
+  <p class="text-xl mb-8 fade-in">Smart, fast, and reliable lawn services with a futuristic touch.</p>
+  <button class="glow-button fade-in">Get Started</button>
+</section>
+
+<section class="p-16 grid md:grid-cols-3 gap-10">
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition">
+    <h3 class="text-2xl font-bold mb-2">Weekly Mowing</h3>
+    <p>Keep your lawn perfectly trimmed all year round.</p>
+  </div>
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition">
+    <h3 class="text-2xl font-bold mb-2">Fertilization & Care</h3>
+    <p>Boost grass health with monthly fertilization.</p>
+  </div>
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition">
+    <h3 class="text-2xl font-bold mb-2">Landscaping</h3>
+    <p>Transform your yard into a modern oasis.</p>
+  </div>
+</section>
+
+<section class="py-16 bg-gray-900 text-white text-center">
+  <h2 class="text-3xl font-bold mb-8 fade-in">What Our Customers Say</h2>
+  <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-8">
+    <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+      <p>“GreenScape transformed my backyard in just a week! The team is incredible.”</p>
+      <span class="block mt-4 font-bold text-green-400">– Sarah K.</span>
+    </div>
+    <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+      <p>“Super professional, fast, and friendly. My lawn has never looked better.”</p>
+      <span class="block mt-4 font-bold text-green-400">– James L.</span>
+    </div>
+    <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+      <p>“Highly recommend! The futuristic touch in their services is amazing.”</p>
+      <span class="block mt-4 font-bold text-green-400">– Priya M.</span>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-gradient-to-r from-green-800 to-blue-900 text-center p-6 mt-16">
+  <p class="text-gray-300">© 2026 GreenScape Lawn Care. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

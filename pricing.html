@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing - GreenScape</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+.fade-in { opacity: 0; animation: fadeIn 1.5s forwards; }
+@keyframes fadeIn { to { opacity: 1; } }
+</style>
+</head>
+<body class="bg-black text-gray-100 font-sans">
+
+<header class="flex justify-between items-center p-6 bg-gradient-to-r from-green-800 to-blue-900 shadow-lg">
+  <h1 class="text-3xl font-bold">Pricing</h1>
+  <nav class="space-x-6">
+    <a href="index.html" class="hover:text-green-400 transition">Home</a>
+    <a href="services.html" class="hover:text-green-400 transition">Services</a>
+  </nav>
+</header>
+
+<section class="p-16 grid md:grid-cols-3 gap-8">
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg text-center hover:scale-105 transition">
+    <h2 class="text-2xl font-bold mb-2">Basic</h2>
+    <p class="text-3xl font-bold mb-4">$40</p>
+    <ul class="mb-4 space-y-2">
+      <li>Lawn Mowing</li>
+      <li>Basic Edging</li>
+    </ul>
+    <button class="glow-button">Choose Plan</button>
+  </div>
+
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg text-center border-2 border-green-400 hover:scale-105 transition">
+    <h2 class="text-2xl font-bold mb-2">Standard</h2>
+    <p class="text-3xl font-bold mb-4">$70</p>
+    <ul class="mb-4 space-y-2">
+      <li>Everything in Basic</li>
+      <li>Weed Control</li>
+      <li>Monthly Fertilization</li>
+    </ul>
+    <button class="glow-button">Most Popular</button>
+  </div>
+
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg text-center hover:scale-105 transition">
+    <h2 class="text-2xl font-bold mb-2">Premium</h2>
+    <p class="text-3xl font-bold mb-4">$120</p>
+    <ul class="mb-4 space-y-2">
+      <li>Everything in Standard</li>
+      <li>Landscaping</li>
+      <li>Priority Scheduling</li>
+    </ul>
+    <button class="glow-button">Choose Plan</button>
+  </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services - GreenScape</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+.fade-in { opacity: 0; animation: fadeIn 1.5s forwards; }
+@keyframes fadeIn { to { opacity: 1; } }
+</style>
+</head>
+<body class="bg-black text-gray-100 font-sans">
+
+<header class="flex justify-between items-center p-6 bg-gradient-to-r from-green-800 to-blue-900 shadow-lg">
+  <h1 class="text-3xl font-bold">Services</h1>
+  <nav class="space-x-6">
+    <a href="index.html" class="hover:text-green-400 transition">Home</a>
+    <a href="pricing.html" class="hover:text-green-400 transition">Pricing</a>
+    <a href="contact.html" class="hover:text-green-400 transition">Contact</a>
+  </nav>
+</header>
+
+<section class="p-16 grid md:grid-cols-2 gap-8">
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition">
+    <h2 class="text-2xl font-bold mb-2">Lawn Mowing</h2>
+    <p>Precision mowing with professional-grade equipment.</p>
+  </div>
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition">
+    <h2 class="text-2xl font-bold mb-2">Edging & Trimming</h2>
+    <p>Crisp edges and clean lines for a polished look.</p>
+  </div>
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition">
+    <h2 class="text-2xl font-bold mb-2">Fertilization</h2>
+    <p>Nutrient-rich treatments to keep your lawn healthy.</p>
+  </div>
+  <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg hover:scale-105 transition">
+    <h2 class="text-2xl font-bold mb-2">Weed Control</h2>
+    <p>Targeted solutions to eliminate weeds effectively.</p>
+  </div>
+</section>
+
+</body>
+</html>
